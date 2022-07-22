@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project HTMLites</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../MiniProject/Style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300;1,400&family=Lobster&family=Newsreader:opsz,wght@6..72,200;6..72,400&family=Noto+Serif&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--SIDENAV-->
+    <div class="app">
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <a class="sidebarNav" href="#"><span class="text-danger">HTML</span>ites</a>
+            <nav class="menu">
+                <ul>
+                    <li><a href="" class="menu-item is-active">Home</a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li><a href="" class="menu-item" class="clickT" id="listHT">HTML Tutorial</a>
+                        <ul class="showlistT">
+                            <li class="navlist">
+                                <a href="intro.html" class="navdrop">
+                                    <p> HTML - Introduction</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="basic.html" class="navdrop">
+                                    <p> HTML Basic / Elements</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="head.html" class="navdrop">
+                                    <p> HTML Heading / Paragraphs</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="format.html" class="navdrop">
+                                    <p> HTML Formatting / Comments</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="links.html" class="navdrop">
+                                    <p>HTML Links / Images</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="table.html" class="navdrop">
+                                    <p>HTML Tables</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="listspage.html" class="navdrop">
+                                    <p>HTML Lists</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="" class="menu-item clickR">HTML References</a>
+                        <ul class="showlistR">
+                            <li class="navlist">
+                                <a href="tags.html" class="navdrop">
+                                    <p> HTML - Tag List</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="" class="navdrop">
+                                    <p> HTML - Website References </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!--SIDENAV-->
+
+        <!--Body1-->
+        <main class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="text-center">
+                            <h1 class="display-5">HTML - Elements</h1>
+                        </div>
+                        &nbsp;
+                        <div class="cardintro">
+                            <div class="card-body">
+                                <p class="lead">
+                                    When you land on a website, all the items you see in front of you -- the paragraph
+                                    texts, the page banners, and the navigation links are all elements of the web page.
+                                    The
+                                    term element is a just a name given to any piece of a web page. Many HTML elements
+                                    are
+                                    actually invisible to visitors and work quietly behind the scenes to provide web
+                                    crawlers and search engines useful information about the site.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="cardintro">
+                            <div class="card-body">
+                                <p class="lead">
+                                    An element consists of three essential pieces: an opening tag, the content, and a
+                                    closing tag.
+                                <ul class="textsi">
+                                    <li><span class="colortag">&ltp&gt </span> - opening paragraph tag</li>
+                                    <li>Element Content - &quotOnce upon a time...&quot</li>
+                                    <li><span class="colortag">&lt/p&gt </span> - closing tag</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                <div class="row">
+                    <div class="col">
+                        <div class="text-left">
+                            <p class="h3">A Complete HTML Element:</p>
+                        </div>
+                        <div class="codebox">
+                            <span class="colortag1">&ltp&gt </span>Once upon a time...<span class="colortag1">&lt/p&gt
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                <div class="row">
+                    <div class="col">
+                        <p class="lead">
+                            A single page can contain hundreds or thousands of elements, but when all is said and done,
+                            every HTML page should have a bare minimum of four critical elements: the HTML, head, title,
+                            and body elements.
+                        </p>
+                    </div>
+                </div>
+                &nbsp;
+                <div class="row">
+                    <div class="col">
+                        <div class="cardintro">
+                            <div class="card-header2">
+                                Structure of an HTML Document
+                            </div>
+                            &nbsp;
+                            <div class="card-body">
+                                <p class="lead">
+                                    Html used predefined tags and attributes to tell the browser how to display content,
+                                    means in which format, style, font size, and images to display. Html is a case
+                                    insensitive language. Case insensitive means there is no difference in upper case
+                                    and lower case ( capital and small letters) both treated as the same, for r example
+                                    ‘D’ and ‘d’ both are the same here.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                <div class="row">
+                    <div class="col">
+                        <div class="text-left">
+                            <p class="h3">HTML Element Code:</p>
+                        </div>
+                        <div class="codebox">
+                            &lthtml&gt <br>
+                            &nbsp; &lthead&gt<br>
+                            &nbsp; &nbsp; &nbsp; &lttitle&gtMy Web Page!&lt/title&gt<br>
+                            &nbsp; &lt/head&gt<br>
+                            &nbsp;&ltbody&gt<br>
+                            &nbsp; &nbsp; &nbsp; &ltp&gtOnce upon a time...&lt/p&gt<br>
+                            &nbsp;&lt/body&gt<br>
+                            &lt/html&gt<br>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                <div class="row">
+                    <div class="col">
+                        <p class="lead">
+                            Every Webpage must contain this code. Below is the complete explanation of each of the tags
+                            used in the above piece of HTML code: <br>
+                        </p>
+                        <p class="lead">
+                            &lthtml&gt &lt/html&gt : &lthtml&gt is a root element of html. It’s a biggest and main
+                            element in complete html language, all the tags , elements and attributes enclosed in it
+                            or we can say wrap init , which is used to structure a web page.
+                        </p>
+                        <p class="lead">
+                            &lthtml&gt tag is parent tag of &lthead&gt and &ltbody&gt tag , other tags enclosed within
+                            &lt/head&gt and &lt/body&gt.
+                        </p>
+                        <p class="lead">
+                            In &lthtml&gt tag we use “lang” attributes to define languages of html page such as
+                            &lthtml lang=”en”&gt here en represents English language. some of them are : es =
+                            Spanish , zh-Hans = Chinese, fr= french and el= Greek etc.
+                        </p>
+                        <p class="lead">
+                            &lthead&gt: Head tag contains metadata, title, page CSS etc. Data stored in the
+                            &lthead&gttag is not displayed to the user, it is just written for reference
+                            purposes and as a watermark of the owner.
+                        </p>
+                        <p class="lead">
+                            &ltbody&gt: A body tag is used to enclose all the data which a web page has from texts to
+                            links.
+                            All the content that you see rendered in the browser is contained within this element.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <!--Body1-->
+    </div>
+
+
+    <a class="fixedButton" href="#top">
+        <div class="roundedFixedBtn"><i class="bi bi-arrow-up-circle-fill"></i></div>
+    </a>
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+<script>
+    const menu_toggle = document.querySelector('.menu-toggle');
+    const sidebar = document.querySelector('.sidebar');
+
+    menu_toggle.addEventListener('click', () => {
+        menu_toggle.classList.toggle('is-active');
+        sidebar.classList.toggle('is-active');
+    });
+</script>
+
+<script>
+
+</script>
+
+</html>

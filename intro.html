@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project HTMLites</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../MiniProject/Style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300;1,400&family=Lobster&family=Newsreader:opsz,wght@6..72,200;6..72,400&family=Noto+Serif&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--SIDENAV-->
+    <div class="app">
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <a class="sidebarNav" href="#"><span class="text-danger">HTML</span>ites</a>
+            <nav class="menu">
+                <ul>
+                    <li><a href="" class="menu-item is-active">Home</a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li><a href="" class="menu-item" class="clickT" id="listHT">HTML Tutorial</a>
+                        <ul class="showlistT">
+                            <li class="navlist">
+                                <a href="intro.html" class="navdrop">
+                                    <p> HTML - Introduction</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="basic.html" class="navdrop">
+                                    <p> HTML Basic / Elements</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="head.html" class="navdrop">
+                                    <p> HTML Heading / Paragraphs</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="format.html" class="navdrop">
+                                    <p> HTML Formatting / Comments</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="links.html" class="navdrop">
+                                    <p>HTML Links / Images</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="table.html" class="navdrop">
+                                    <p>HTML Tables</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="listspage.html" class="navdrop">
+                                    <p>HTML Lists</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="" class="menu-item clickR">HTML References</a>
+                        <ul class="showlistR">
+                            <li class="navlist">
+                                <a href="tags.html" class="navdrop">
+                                    <p> HTML - Tag List</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="" class="navdrop">
+                                    <p> HTML - Website References </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!--SIDENAV-->
+
+        <!--Body1-->
+        <main class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                        <h1 class="display-5">HTML - Hypertext Markup Language</h1>
+                    </div>
+                    &nbsp;
+                    <div class="cardintro">
+                        <div class="card-body">
+                            <p class="lead">
+                                HTML is not a programming language, but rather a markup language. If you already know
+                                XML, HTML will be a snap for you to learn. This is the foundation of all web pages. It
+                                was
+                                created by Tim Berneres-Lee in 1993 to define the structure of a web page. Without it,
+                                you wouldn’t be able to organize text or add images or videos to your pages. HTML is the
+                                beginning of everything you need to know to make your first website.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cardintro">
+                        <div class="card-header1">
+                            Words to Know
+                        </div>
+                        &nbsp;
+                        <div class="card-body">
+                            <p class="lead">
+                                Throughout this tutorial, we will be using several terms that are unique to HTML. It is
+                                important for you to understand what these words mean, in the context of HTML.
+                            <ul class="textsi">
+                                <li>Tag - Used to tag or "mark-up" pieces of text. Once tagged, the text becomes HTML
+                                    code
+                                    to be interpreted by a web browser. Tags look like this: <span
+                                        class="colortag">&lttag&gt </span></li>
+                                <li>Element - A complete tag, having an opening <span
+                                    class="colortag">&lttag&gt </span> and a closing <span
+                                    class="colortag">&lt/tag&gt </span>.
+                                </li>
+                                <li>Attribute - Used to modify the value of the HTML element. Elements will often have
+                                    multiple attributes.</li>
+                                For now, just understand that a tag a piece of code that acts as a label that a web
+                                browser interprets, an element is a complete tag with an opening and closing tag,
+                                and an attribute is a property value that customizes or modifies an HTML element.
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--Body1-->
+    </div>
+
+
+    <a class="fixedButton" href>
+        <div class="roundedFixedBtn"><i class="bi bi-arrow-up-circle-fill"></i></div>
+    </a>
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+<script>
+    const menu_toggle = document.querySelector('.menu-toggle');
+    const sidebar = document.querySelector('.sidebar');
+
+    menu_toggle.addEventListener('click', () => {
+        menu_toggle.classList.toggle('is-active');
+        sidebar.classList.toggle('is-active');
+    });
+</script>
+
+<script>
+
+</script>
+
+</html>
