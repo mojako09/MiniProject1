@@ -1,0 +1,405 @@
+* {
+    font-family: 'Bitter', serif;
+    font-family: 'Newsreader', serif;
+    font-family: 'Noto Serif', serif;
+}
+body {
+    background-color: #c8e0f4;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 10px solid rgba(0, 0, 0, 0.25);
+    padding: auto;
+  }
+  .leadmain{
+    padding-top: 70px;
+    font-size: large;
+  }
+  .leadcon{
+    font-size: large;
+  }
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+.section-padding{
+    padding: 100px 0;
+}
+.banner1 {
+    background-color: #031927;
+    color: #FFF;
+}
+.banner1 .overflow-hidden{
+    max-height: 30vh;
+    border-color: #031927;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light  .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform:uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light  .navbar-brand:focus,
+.navbar-light  .navbar-brand:hover{
+    color: #000;
+}
+
+.navbar-light  .navbar-brand .navbar-link {
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+}
+
+.btnnav{
+    font-size: 11px;
+    padding: 10px 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid #031927; 
+    transition-duration: 0.3s;
+}
+
+.btnnav:hover {
+    background-color: #031927;
+    color: whitesmoke;
+    border: 2px solid #031927; 
+  }
+
+  .footerC{
+    background-color: #031927;
+    color: #FFF;
+  }
+  .footerC .footer-link{
+    color: #FFF;
+    text-decoration: none;
+  }
+
+/* responsive css*/
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .card{
+        margin-bottom:30px;
+    }
+    .img-area img{
+        width: 100%;
+    }
+    .about-text {
+        padding-top: 50px;
+    }
+    .card{
+        margin-bottom:30px;
+    }
+}
+
+/*Side Navbar*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+	display: flex;
+	min-height: 100vh;
+}
+
+
+aside ul li {
+    list-style: none;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    line-height: 25px;
+    transition: 1s;
+}
+
+aside ul ul .showlistT.show{
+    display: block;
+}
+
+
+.navlist{
+    overflow: hidden;
+}
+
+aside ul ul li a{
+    text-decoration: none;
+    color: #9DD1F1;
+}
+
+aside ul ul li:hover > ul {
+    display: block;
+}
+
+.menu-toggle {
+	display: none;
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+	width: 60px;
+	height: 60px;
+	border-radius: 99px;
+	background-color: #031927;
+	cursor: pointer;
+}
+
+.hamburger {
+	position: relative;
+	top: calc(50% - 2px);
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 32px;
+}
+
+.hamburger > span,
+.hamburger > span::before,
+.hamburger > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 99px;
+  background-color: #FFF;
+  transition-duration: .25s;
+}
+
+.hamburger > span::before {
+  content: '';
+  top: -8px;
+}
+.hamburger > span::after {
+  content: '';
+  top: 8px;
+}
+.menu-toggle.is-active .hamburger > span {
+  transform: rotate(45deg);
+}
+.menu-toggle.is-active .hamburger > span::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+.menu-toggle.is-active .hamburger > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.sidebar {
+	flex: 1 1 0;
+	max-width: 300px;
+	padding: 2rem 1rem;
+	background-color: #031927;
+    max-height: 100%;
+}
+
+
+.sidebarNav {
+	color: #9DD1F1;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 0.5em;
+    text-decoration: none;
+}
+
+.navlist{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9DD1F1;
+}
+
+.sidebar .menu {
+	margin: 0 -1rem;
+}
+
+.sidebar .menu .menu-item {
+	display: block;
+	padding: 1em;
+	color: #FFF;
+	text-decoration: none;
+	transition: 0.2s linear;
+}
+
+.sidebar .menu .menu-item:hover,
+.sidebar .menu .menu-item.is-active {
+	color: #3bba9c;
+	border-right: 10px solid #BA1200;
+}
+
+.sidebar .menu .menu-item:hover {
+	border-right: 10px solid #BA1200;
+}
+
+.content {
+	flex: 1 1 0;
+	padding: 2rem;
+}
+
+
+@media (max-width: 1400px) {
+	.sidebar {
+		max-width: 200px;
+	}
+}
+
+@media (max-width: 1400px) {
+	.menu-toggle {
+		display: block;
+	}
+	.content {
+		padding-top: 8rem;
+	}
+	.sidebar {
+		position: fixed;
+		top: 0;
+		left: -300px;
+		height: 100vh;
+		width: 100%;
+		max-width: 300px;
+		transition: 0.2s linear;
+	}
+
+	.sidebar.is-active {
+		left: 0;
+	}
+}
+
+/*back button*/
+
+.fixedButton{
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    padding: 20px;
+}
+.roundedFixedBtn{
+  height: 70px;
+  line-height: 70px;  
+  width: 70px;  
+  font-size: 70px;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: #BA1200;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+/*Text HTML*/
+.card-header1{
+    color:#000;
+    font-size: 40px;
+    font-weight: bold;
+}
+.card-header2{
+    color:#000;
+    font-size: 25px;
+    font-weight: bold;
+}
+.card-header3{
+    color:#000;
+    font-size: 25px;
+}
+.display-5{
+    font-weight: bold;
+}
+.lead{
+    font-size:25px;
+}
+.colortag{
+    color:#BA1200;
+    font-size: 30px;
+}
+.colortag1{
+    font-size: 20px;
+}
+.textsi {
+    font-size: 25px;
+}
+.cardintro{
+    margin: auto;
+    padding: auto;
+}
+.codebox{
+    width: 100%;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    font-size: 20px;
+  }
+  .h3{
+    font-style: bold;
+  }
+
+  .outbot{
+    text-decoration: none;
+    background-color: #FFF;
+    font-size: 25px;
+  }
+  .table{
+    font-size: 30px;
+  }
+  
+
+
+/* responsive css*/
+
+@media only screen and (max-width: 767px){
+    .card-header1{
+        font-size: 25px;
+    }
+    .card-header2{
+        font-size: 18px;
+    }
+    .card-header3{
+        font-size: 15px;
+    }
+    .lead{
+        font-size:15px;
+    }
+    .colortag{
+        font-size: 18px;
+    }
+    .colortag1{
+        font-size: 15px;
+    }
+    .textsi {
+        font-size: 15px;
+    }
+    .codebox{
+        font-size: 15px;
+      }
+      .outbot{
+        font-size: 12px;
+      }
+      .table{
+        font-size: 15px;
+      }
+}

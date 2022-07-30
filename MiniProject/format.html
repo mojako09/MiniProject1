@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project HTMLites</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../MiniProject/Style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300;1,400&family=Lobster&family=Newsreader:opsz,wght@6..72,200;6..72,400&family=Noto+Serif&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--SIDENAV-->
+    <div class="app">
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <a class="sidebarNav" href="#"><span class="text-danger">HTML</span>ites</a>
+            <nav class="menu">
+                <ul>
+                    <li><a href="" class="menu-item is-active">Home</a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li><a href="" class="menu-item" class="clickT" id="listHT">HTML Tutorial</a>
+                        <ul class="showlistT">
+                            <li class="navlist">
+                                <a href="intro.html" class="navdrop">
+                                    <p> HTML - Introduction</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="basic.html" class="navdrop">
+                                    <p> HTML Basic / Elements</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="head.html" class="navdrop">
+                                    <p> HTML Heading / Paragraphs</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="format.html" class="navdrop">
+                                    <p> HTML Formatting / Comments</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="links.html" class="navdrop">
+                                    <p>HTML Links / Images</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="table.html" class="navdrop">
+                                    <p>HTML Tables</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="listspage.html" class="navdrop">
+                                    <p>HTML Lists</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="" class="menu-item clickR">HTML References</a>
+                        <ul class="showlistR">
+                            <li class="navlist">
+                                <a href="tags.html" class="navdrop">
+                                    <p> HTML - Tag List</p>
+                                </a>
+                            </li>
+                            <li class="navlist">
+                                <a href="" class="navdrop">
+                                    <p> HTML - Website References </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!--SIDENAV-->
+
+        <!--Body1-->
+        <main class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="text-center">
+                            <h1 class="display-5">HTML - Formatting and Comments</h1>
+                        </div>
+                        &nbsp;
+                        <div class="cardintro">
+                            <div class="text-left">
+                                <p class="card-header2">Formatting</p>
+                            </div>
+                            <div class="card-body">
+                                <p class="lead">
+                                    In this article, we will know HTML Text Formatting, & will understand various ways
+                                    of formatting the text. HTML facilitates the ability for formatting text just like
+                                    we do in MS Word or any text editing software. We will go through a few such
+                                    options.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="cardintro">
+                            <div class="card-header3">
+                                Syntax:
+                            </div>
+                            <br>
+                            <div class="card-body">
+                                <div class="codebox">
+                                    &lt!--Text in Strong--&gt<br> <br>
+                                    &ltstrong&gtHello Geeks&lt/strong&gt
+                                    <br> <br>
+
+                                    &lt!--Text in small--&gt<br><br>
+                                    &ltsmall&gtHello Geeks&lt/small&gt
+                                    <br> <br>
+
+                                    &lt!--Text in Highlight--&gt<br><br>
+                                    &lti&gtHello Geeks&lt/i&gt<br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                <div class="row">
+                    <div class="col">
+                        <div class="cardintro">
+                            <div class="card-header3">
+                                Output:
+                            </div>
+                            <br>
+                            <div class="outbot">
+                                <strong>Hello Geeks</strong>
+                                <br>
+                                <small>Hello Geeks</small>
+                                <br>
+                                <i>Hello Geeks</i>
+                            </div>
+                            &nbsp;
+                            <div class="card-body">
+                                <div class="card-header3">
+                                    Making text Bold or Strong:
+                                </div>
+                                &nbsp;
+                                <p class="lead">
+                                    We can make the text bold using the &ltb&gt tag. The tag uses both opening and
+                                    closing
+                                    tags. The text that needs to be made bold must be within &ltb&gt and &lt/b&gt tag.
+                                    We
+                                    can also use the &ltstrong&gt tag to make the text strong, with added semantic
+                                    importance. It also opens with &ltstrong&gt and ends with &lt/strong&gt tag.
+                                </p>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-header3">
+                                    Making text smaller:
+                                </div>
+                                &nbsp;
+                                <p class="lead">
+                                    The &ltsmall&gt element is used to make the text smaller. The text that needs to be
+                                    displayed smaller should be written inside &ltsmall&gt and &lt/small&gt tag.
+                                </p>
+                            </div>
+                            <div class="card-body">
+                                <div class="card-header3">
+                                    Making text Italic or emphasize:
+                                </div>
+                                &nbsp;
+                                <p class="lead">
+                                    The &lti&gt tag is used to italicise the text. It opens with &lti&gt and ends with
+                                    &lti&gt tag.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                &nbsp;
+                <div class="row">
+                    <div class="col">
+                        <div class="cardintro">
+                            <p class="lead">
+                                <i>For a complete list of all available HTML tags, visit our <a href="">HTML
+                                        Tag</a>.</i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                &nbsp;
+                <div class="row">
+                    <div class="col">
+                        <div class="cardintro">
+                            <div class="text-left">
+                                <p class="card-header2">Comments</p>
+                            </div>
+                            <div class="card-body">
+                                <p class="lead">
+                                    The comment tag (&lt!-- Comment--&gt ) is used to insert comments in the HTML code.
+                                    It is a good practice
+                                    of coding, so that coder and the reader can get help to understand the code. It is
+                                    useful to understand steps of the complex code. The comment tag is helpful while the
+                                    debugging of codes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+            </div>
+        </main>
+        <!--Body1-->
+    </div>
+
+
+    <a class="fixedButton" href="#top">
+        <div class="roundedFixedBtn"><i class="bi bi-arrow-up-circle-fill"></i></div>
+    </a>
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+<script>
+    const menu_toggle = document.querySelector('.menu-toggle');
+    const sidebar = document.querySelector('.sidebar');
+
+    menu_toggle.addEventListener('click', () => {
+        menu_toggle.classList.toggle('is-active');
+        sidebar.classList.toggle('is-active');
+    });
+</script>
+
+<script>
+
+</script>
+
+</html>
